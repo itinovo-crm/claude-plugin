@@ -1,7 +1,7 @@
 {
   "name": "itinovo-crm",
   "displayName": "itinovo CRM",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Work on itinovo, the CRM for travel agencies, tour operators and DMCs, by talking to Claude: turn a client's request into a draft quote, load suppliers' price lists and client files, review the week's departures, revise a quote after a change request.",
   "author": {
     "name": "Itinovo S.r.l.",
@@ -11,6 +11,9 @@
   "homepage": "https://crm.itinovo.com/en-GB/features/claude/guide",
   "repository": "https://github.com/itinovo-crm/claude-plugin",
   "privacyPolicyUrl": "https://crm.itinovo.com/en-GB/privacy",
+  "documentationUrl": "https://crm.itinovo.com/en-GB/features/claude/guide",
+  "supportUrl": "https://crm.itinovo.com/en-GB/features/claude/guide#problems",
+  "termsOfServiceUrl": "https://crm.itinovo.com/en-GB/terms",
   "license": "MIT",
   "keywords": [
     "travel",
