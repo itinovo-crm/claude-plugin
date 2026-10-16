@@ -10,6 +10,7 @@
   },
   "homepage": "https://crm.itinovo.com/en-GB/features/claude/guide",
   "repository": "https://github.com/itinovo-crm/claude-plugin",
+  "privacyPolicyUrl": "https://crm.itinovo.com/en-GB/privacy",
   "license": "MIT",
   "keywords": [
     "travel",
