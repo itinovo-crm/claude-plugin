@@ -1,0 +1,22 @@
+{
+  "name": "itinovo-crm",
+  "displayName": "itinovo CRM",
+  "version": "1.0.0",
+  "description": "Work on itinovo, the CRM for travel agencies, tour operators and DMCs, by talking to Claude: turn a client's request into a draft quote, load suppliers' price lists and client files, review the week's departures, revise a quote after a change request.",
+  "author": {
+    "name": "Itinovo S.r.l.",
+    "email": "support@itinovo.com",
+    "url": "https://crm.itinovo.com"
+  },
+  "homepage": "https://crm.itinovo.com/en-GB/features/claude/guide",
+  "license": "MIT",
+  "keywords": [
+    "travel",
+    "travel agency",
+    "tour operator",
+    "dmc",
+    "crm",
+    "quotes",
+    "itineraries"
+  ]
+}

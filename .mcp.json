@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "itinovo-crm": {
+      "type": "http",
+      "url": "https://api-crm.itinovo.com/mcp"
+    }
+  }
+}
