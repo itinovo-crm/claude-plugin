@@ -1,7 +1,7 @@
 {
   "name": "itinovo-crm",
   "displayName": "itinovo CRM",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Work on itinovo, the CRM for travel agencies, tour operators and DMCs, by talking to Claude: turn a client's request into a draft quote, load suppliers' price lists and client files, review the week's departures, revise a quote after a change request.",
   "author": {
     "name": "Itinovo S.r.l.",
