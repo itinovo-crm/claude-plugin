@@ -16,6 +16,12 @@ their rates, confirmations and tasks. The plugin uses the **itinovo CRM connecto
 | `revise-a-sent-quote` | Prepares a new version of a quote after the client's change request, leaving the sent one untouched |
 | `record-in-accounting` | Enters a period's invoices, credit notes, supplier invoices, payments and refunds into the agency's accounting software (Xero, QuickBooks Online, Zoho Books…), without doubles and only after the user's yes |
 | `log-client-emails` | Records in a booking's Communications the emails exchanged with its client in Outlook or Gmail (found with the mailbox's own connector), only those the user chooses, with a short summary; nothing is sent |
+| `follow-up-open-quotes` | Finds the quotes still waiting for the client's answer and proposes the next step for each: a follow-up task with a short draft message, a new version, or the lead marked lost with its reason, each after the user's yes |
+| `confirm-with-suppliers` | Asks suppliers for the confirmations still missing (only after the user's yes) and records what a supplier confirmed — code, price, option, cancellation terms, payment dates — from the email or voucher the user shares |
+| `offer-to-template` | Turns an offer the agency sold before, or a programme of a tour operator it works with, into a reusable template with the agency's own suppliers |
+| `set-up-a-group` | Sets up a group from the organiser's participant list: the group lead, its sub-groups and travellers, and for events the programme of sessions with its checks |
+| `review-the-numbers` | Reviews a month's, quarter's or year's figures against the period before, with what clients still owe and what is due to suppliers (administrators) |
+| `prepare-travel-documents` | Checks the coming departures and generates their roadbook, vouchers, contract and group documents in itinovo, without sending anything |
 
 ## Requirements
 
@@ -33,7 +39,7 @@ details never leave itinovo. Every action is recorded in the agency's AI Log.
 
 ## What the plugin contains, runs and sends
 
-- Seven skills (Markdown instructions) in `skills/`.
+- Thirteen skills (Markdown instructions) in `skills/`.
 - `.mcp.json`, which points Claude to the itinovo connector at `https://api-crm.itinovo.com/mcp`. All
   data goes only between Claude and that server, under your itinovo sign-in. `record-in-accounting`
   also writes to your accounting software, and `log-client-emails` reads your mailbox, each through that
