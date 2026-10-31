@@ -15,13 +15,13 @@ description: Record in an itinovo booking the emails exchanged with its client i
    communications, and wait for the user to choose.
 4. **Record each chosen email** with `log_email`: `direction` (`inbound` from the client, `outbound` to the
    client), `sentAt` with its time, `from`, `to`, `subject`, `text` and `mailbox` (Outlook, Gmail…).
-   The `text` is your summary in a few lines, in the language of the email: what was asked, decided or
-   promised — never the whole thread, nor what was quoted from earlier emails.
+   The `text` is the email's whole text, as written: the message itself, without the earlier emails it
+   quotes. If the client has no booking, record it on the client with `clientId` instead of `leadId`.
 5. **Report** what was recorded and what was already there.
 
 ## Rules
 
 - Nothing is ever sent from here: `log_email` only records.
 - Record only emails with the booking's client, or about the booking, and only those the user chose.
-- Leave out identity documents, payment card data and health details: say that the email has them, without copying them.
+- Never copy a payment card's number into the text: write that the email has one.
 - The same email (same minute, sender and subject) is never recorded twice: itinovo answers that it is already there.
